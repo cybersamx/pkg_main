@@ -53,7 +53,7 @@ publish: clean test
 run: venv lint
 	@echo "Run the python project."
 	@cd src && \
-	$(PYTHON) -m cybersamx_main && \
+	$(PYTHON) -m pkg_main && \
 	cd -
 
 ##@ lint: Run a linter against the project

@@ -1,2 +1,4 @@
-numpy~=2.0
-pytest~=8.3
+# Look at test pypi for pkg_c
+--extra-index-url https://test.pypi.org/simple
+pkg_a==1.0.0
+pkg_b==1.0.0

@@ -1,13 +1,12 @@
 [project]
-name = 'cybersamx_main'
-description = 'This is a python main template.'
+name = 'pkg_main'
+description = 'Program that imports pkg_a and pkg_b.'
 readme = 'README.md'
 version = '0.1.0'
 requires-python = '>=3.11'
-dependencies = ['numpy']
 
 [project.scripts]
-my_program = 'cybersamx_main:main'
+my_program = 'pkg_main:main'
 
 [build-system]
 requires = ['setuptools']
